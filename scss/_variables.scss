@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Sf Pro Regular";
+  font-weight: 400;
+  src: url("../fonts/sfpro-display-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Sf Pro Semibold";
+  font-weight: 600;
+  src: url("../fonts/sfpro-display-semibold.woff2") format("woff2");
+}
+
+:root {
+  --regular-font: "Sf Pro Regular", sans-serif;
+  --semibold-font: "Sf Pro Semibold", sans-serif;
+  --color-light: #fff;
+  --color-dark: #000;
+  --color-grey: #f7f7f7;
+  --color-green: #00a900;
+}
